@@ -38,3 +38,10 @@ TOTAL                        76     10    87%
 ```
 
 This example shows that the first two scripts are well represented by unit tests. One would want a code coverage percentage in the 80% or 89% range to ensure that most of the test cases are implemented.
+
+### Filter Out Files That Do Not Match Schema
+In order to filter out bad records, I manually created two files that would not meet desired schema and automatically place these files into the desired "Bad_File" folder. I left it simply as commentable code, so that I will use it if necessary.
+Including "filtering" out bad records may end up leading to more time processing data, so I just left it out of code.
+I included snapshot so that one can see my approach to filtering files.
+
+
