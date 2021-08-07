@@ -16,6 +16,9 @@ In order to complete this, I needed to work with the ```unittest``` Python packa
 I basically wanted to ensure that data is being transformed and converted in the desired manner.
 Thus, I had to test the data quality to see if files that have been placed into the desired "Data_Stream_1" folder or "Data_Stream_2" folders have the desired column dropped and data type has been successfully casted.
 
+I originally had 2 tests passed out of 4. I realized that I entered 10 instead of 9, to ensure that I dropped both columns.
+In addition, I tried to test to see if data type conversion from string to integer was successful. This test case failed, but I will keep it as a "STRING" data type, but try to work with the "CAST()" aggregation function inside Athena later on (if it is desired later on).
+
 ### Issue
 While trying to work with EMR Notebook, I tried to work with ```pytest``` via ```pytest-cov``` as well as ```coverage``` package so that I could observe code coverage percentage. Code coverage percentage is basically a measurement of how much of my code includes unit testing.
 
